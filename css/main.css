@@ -1,0 +1,31 @@
+body {
+    background-color: #E1E1E1;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.nav{
+    background-color: #4A90E2;
+    font-size: 24px;
+    padding: 0 auto;
+    height: 76px;
+}
+
+.nav ul{
+    margin: 0 auto;
+}
+
+.nav li{
+    text-align: center;    
+    width:220px;
+    
+}
+
+.nav li a{
+    padding: 23px 0px 25px 0px;
+    color:#00408B;
+}
+
+.nav a.active{
+    color:#ffffff;
+}
