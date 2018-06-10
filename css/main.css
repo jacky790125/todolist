@@ -29,3 +29,95 @@ body {
 .nav a.active{
     color:#ffffff;
 }
+
+#container{
+    margin: 0 auto;
+    width: 620px;
+}
+
+/* newTodo */
+.newTodo{
+    margin: 0 auto;
+    padding: 20px;
+    height: 76px;
+    background-color: #F2F2F2;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  
+  .icon{
+    padding-left: 180px; 
+  }
+  
+  .icon i{
+     padding-left: 20px;
+  }
+
+  /*Content*/
+  .form{
+    background-color: #F2F2F2;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  
+  .form-group div{
+    margin-left: 30px;
+  }
+  
+  .form-group i{
+    width:30px;
+  }
+  
+  .btn-area{
+    text-align: center;
+    padding: 0 15px;
+  }
+  
+  .cancel{
+    padding:10px 0px;
+    background-color: #FFF;
+    color: red;
+    height: 60px;
+    width: 310px;
+    border-radius: 5px;
+  }
+  
+  .add{
+    padding:10px 0px;
+    background-color: #4A90E2;
+    color: white;
+    height: 60px;
+    width: 310px;
+    border-radius: 5px;
+  }
+  
+  .todo{
+    padding: 20px;
+    width:620px;
+    height:102px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #F2F2F2;
+    margin-bottom: 5px; 
+  }
+
+  .todo.none{
+    height:76px;
+  }
+
+  .star{
+    background-color:  #FFF2DC;
+  }
+  
+  .gold{
+     color:  #F5A623;
+  }
+  
+  .row-icon i{
+    margin: 0 15px;
+  }
+
+  .completed{
+    text-decoration: line-through;
+    color:#9B9B9B;
+  }
